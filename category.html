@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eCommerce</title>
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@mdi/font@6.2.95/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="css/flexbox-grid.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <main>
+    <header>
+      <div class="container">
+        <div class="nav__user row between-xs middle-xs">
+          <ul class="nav__adress">
+            <li class="nav-adress__item"><a class="user__link" href="#">Chat with us</a></li>
+            <li class="nav-adress__item"><a class="nav-adress__link" href="tel:+998977590506">+998 97 759 05 06</a></li>
+            <li class="nav-adress__item"><a class="nav-adress__link" href="#">info@freshnesecom.com</a></li>
+          </ul>
+          <ul class="user__list">
+            <li class="user__item"><a class="user__link" href="#">Blog</a></li>
+            <li class="user__item"><a class="user__link" href="#">About Us</a></li>
+            <li class="user__item"><a class="user__link" href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div class="nav__form row between-xs middle-xs">
+          <div>
+            <a href="index.html"><img src="img/Freshnesecom.png" alt="logo"></a></div>
+          <form action="">
+            <select class="round__select" name="select" id="">
+              <option value="">All category</option>
+            </select>
+
+            <input class="form__input" type="search" id="search" name="search"
+              placeholder="Search Products, categories ...">
+            <span class="mdi mdi-magnify"></span>
+          </form>
+          <div class="user">
+            <i class='bx bx-user'></i>
+            <i class='bx bx-basket'></i>
+            <span class="user__span">4</span>
+          </div>
+        </div>
+
+      </div>
+      <nav>
+        <div class="container">
+          <ul class="nav__list row between-xs middle-xs">
+            <li class="nav__item"><a class="nav__link" href="#">Bakery<span class="mdi mdi-chevron-down"></span></a>
+            </li>
+            <li class="nav__item"><a class="nav__link" href="#">Fruit and vegetables<span
+                  class="mdi mdi-chevron-down"></span></a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Meat and fish<span
+                  class="mdi mdi-chevron-down"></span></a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Drinks<span class="mdi mdi-chevron-down"></span></a>
+            </li>
+            <li class="nav__item"><a class="nav__link" href="#">Kitchen<span class="mdi mdi-chevron-down"></span></a>
+            </li>
+            <li class="nav__item"><a class="nav__link" href="#">Special nutrition<span
+                  class="mdi mdi-chevron-down"></span></a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Baby<span class="mdi mdi-chevron-down"></span></a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Pharmacy<span class="mdi mdi-chevron-down"></span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    </header>
+    <section>
+      <div class="container">
+        <div class="page__links row between-xs middle-xs">
+          <a class="page__link" href="index.html">Homepage /</a>
+          <span class="page-link__span">Fruit and vegetables</span>
+        </div>
+        <div class="table row between-xs middle-xs">
+          <h2 class="table__title">Fruit and vegetables</h2>
+          <div class="table__flex">
+            <a class="grid__page" href="#"><span class="mdi mdi-grid-large"></span> Grid view</a>
+            <a class="list__page" href="#">List view</a>
+            <a class="list__page-two" href="#"><span class="list-page__span">117</span>Products</a>
+          </div>
+
+        </div>
+        <div class="filters row between-xs middle-xs">
+          <form>
+            <label>
+              <input type="radio" name="radio" checked />
+              <span>Filtre text</span>
+            </label>
+            <label>
+              <input type="radio" name="radio" />
+              <span>Filtre text</span>
+            </label>
+          </form>
+          <div class="round">
+            <p class="round__text"><input type="checkbox" checked id="checkbox" />
+              <label for="checkbox"></label>Filtre</p>
+            <span class="nbm">nbm</span>
+          </div>
+          <div class="round__two">
+            <p class="round__text">
+              <input class="round__input" type="checkbox" checked id="checkbox2" />
+              <label class="round__label" for="checkbox2"></label>Filtre</p>
+            <span class="nbm">nbm</span>
+          </div>
+          <div class="round__tree">
+            <p class="round__text"><input type="checkbox" checked id="checkbox3" />
+              <label for="checkbox3"></label>Filtre
+              <span class="nbm">12</span>
+            </p>
+            <span class="round__br"></span>
+            <select class="round__select" name="select" id="select">
+              <option value="select">Select</option>
+            </select>
+          </div>
+        </div>
+        <div class="filter__spans row between-xs middle-xs">
+          <span class="filters__title">Applied filtres:</span>
+          <span class="filter__title">Selected Filtre <span class="mdi mdi-close-thick"></span></span>
+          <span class="filter__title">Selected Filtre <span class="mdi mdi-close-thick"></span></span>
+
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row between-xs top-xs">
+          <div class="category__body">
+            <ul class="price__list">
+              <li class="price__item--active">Categories</li>
+              <li class="price__item">Category name<span class="list-page__span">320</span></li>
+              <li class="price__item">Category name<span class="list-page__span">112</span></li>
+              <li class="price__item">Category name<span class="list-page__span">32</span></li>
+              <li class="price__item">Category name<span class="list-page__span">48</span></li>
+            </ul>
+
+            <h2 class="rating__title">Brands</h2>
+            <div>
+              <div class="round__tree br__none">
+                <p class="round__text"><input type="checkbox" checked id="checkbox4" />
+                  <label  class="br__none" for="checkbox4"></label>Filtre by brand item
+                </p>
+              </div>
+              <div class="round__tree br__none">
+                <p class="round__text"><input type="checkbox" checked id="checkbox5" />
+                  <label for="checkbox5"></label>Filtre by brand item
+                </p>
+              </div>
+              <div class="round__tree br__none">
+                <p class="round__text"><input type="checkbox" checked id="checkbox6" />
+                  <label for="checkbox6"></label>Filtre by brand item
+                </p>
+              </div>
+              <div class="round__tree br__none">
+                <p class="round__text"><input type="checkbox" checked id="checkbox7" />
+                  <label for="checkbox7"></label>Filtre by brand item
+                </p>
+              </div>
+              <div class="round__tree br__none">
+                <p class="round__text"><input type="checkbox" checked id="checkbox8" />
+                  <label for="checkbox8"></label>Filtre by brand item
+                </p>
+              </div>
+            </div>
+
+
+            <h3 class="rating__title">Rating</h3>
+            <div class="star">
+              <p class="star__text">
+                <input class="star__input" type="checkbox" checked id="checkbox4" />
+                <label class="star__label" for="checkbox4"></label><span class="mdi mdi-star"></span><span
+                  class="mdi mdi-star"></span><span class="mdi mdi-star"></span><span class="mdi mdi-star"></span><span
+                  class="mdi mdi-star"></span></p>
+            </div>
+            <div class="star__two">
+              <p class="star__text">
+                <input class="star-two__input" type="checkbox" checked id="checkbox5" />
+                <label class="star-two__label" for="checkbox5"></label><span class="mdi mdi-star"></span><span
+                  class="mdi mdi-star"></span><span class="mdi mdi-star"></span><span class="mdi mdi-star"></span><span
+                  class="mdi mdi-star-outline"></span></p>
+            </div>
+
+            <div class="star__tree">
+              <p class="star__text">
+                <input class="star-tree__input" type="checkbox" checked id="checkbox6" />
+                <label class="star-tree__label" for="checkbox6"></label><span class="mdi mdi-star"></span><span
+                  class="mdi mdi-star"></span><span class="mdi mdi-star"></span><span
+                  class="mdi mdi-star-outline"></span><span class="mdi mdi-star-outline"></span></p>
+            </div>
+            <div class="star__four">
+              <p class="star__text">
+                <input class="star-four__input" type="checkbox" checked id="checkbox7" />
+                <label class="star-four__label" for="checkbox7"></label><span class="mdi mdi-star"></span><span
+                  class="mdi mdi-star"></span><span class="mdi mdi-star-outline"></span><span
+                  class="mdi mdi-star-outline"></span><span class="mdi mdi-star-outline"></span></p>
+            </div>
+            <div class="star__five">
+              <p class="star__text">
+                <input class="star-five__input" type="checkbox" checked id="checkbox8" />
+                <label class="star-five__label" for="checkbox8"></label><span class="mdi mdi-star"></span><span
+                  class="mdi mdi-star-outline"></span><span class="mdi mdi-star-outline"></span><span
+                  class="mdi mdi-star-outline"></span><span class="mdi mdi-star-outline"></span></p>
+            </div>
+
+          </div>
+          <div class="product__body">
+            <div class="product-body__card row between-xs middle-xs">
+              <img src="img/Rectangle-26.png" width="325px" alt="img">
+              <div class="product__block">
+                <h2 class="product-block__title">Product title</h2>
+                <p class="product-block__text">Space for a small product description </p>
+                <div><span class="mdi mdi-star black"></span><span class="mdi mdi-star black"></span><span
+                    class="mdi mdi-star black"></span><span class="mdi mdi-star black"><span
+                      class="mdi mdi-star-outline"></span></div>
+                <div class=" row between-xs middle-xs">
+                  <div>
+                    <p class="space__text">Fresheness</p>
+                    <p class="space__text">Farm</p>
+                    <p class="space__text">Delivery</p>
+                    <p class="space__text">Stock</p>
+                  </div>
+                  <div>
+                    <p class="space__text"><span class="category__link line">New</span> (Extra fresh)</p>
+                    <p class="space__text">Grocery Tarm Fields</p>
+                    <p class="space__text">Europe</p>
+                    <p class="category__link line">320 pcs</p>
+                  </div>
+                </div>
+
+              </div>
+              <div>
+                <h3 class="product-price__title">36.99 USD<br> <span class="product-price__title__span">48.56</span>
+                </h3>
+                <h4 class="costumer__text">Free Shipping</h4>
+                <p class="space__text">Delivery in 1 day</p>
+                <a class="product-price__btn mr__b" href="#">Product Detail <span
+                    class="mdi mdi-chevron-right white"></span></a>
+                <p class="wish__btn"> <span class="mdi mdi-heart-outline"></span>Add to wish list</p>
+
+              </div>
+            </div>
+
+            <div class="product-body__card row between-xs middle-xs">
+              <img src="img/Rectangle-26.png" width="325px" alt="img">
+              <div class="product__block">
+                <h2 class="product-block__title">Product title</h2>
+                <p class="product-block__text">Space for a small product description </p>
+                <div><span class="mdi mdi-star black"></span><span class="mdi mdi-star black"></span><span
+                    class="mdi mdi-star black"></span><span class="mdi mdi-star black"><span
+                      class="mdi mdi-star-outline"></span></div>
+                <div class=" row between-xs middle-xs">
+                  <div>
+                    <p class="space__text">Fresheness</p>
+                    <p class="space__text">Farm</p>
+                    <p class="space__text">Delivery</p>
+                    <p class="space__text">Stock</p>
+                  </div>
+                  <div>
+                    <p class="space__text"><span class="category__link line">New</span> (Extra fresh)</p>
+                    <p class="space__text">Grocery Tarm Fields</p>
+                    <p class="space__text">Europe</p>
+                    <p class="category__link line">320 pcs</p>
+                  </div>
+                </div>
+
+              </div>
+              <div>
+                <h3 class="product-price__title">36.99 USD<br> <span class="product-price__title__span">48.56</span>
+                </h3>
+                <h4 class="costumer__text">Free Shipping</h4>
+                <p class="space__text">Delivery in 1 day</p>
+                <a class="product-price__btn mr__b" href="#">Product Detail <span
+                    class="mdi mdi-chevron-right white"></span></a>
+                <p class="wish__btn"> <span class="mdi mdi-heart-outline"></span>Add to wish list</p>
+
+              </div>
+            </div>
+
+            <div class="product-body__card row between-xs middle-xs">
+              <img src="img/Rectangle-26.png" width="325px" alt="img">
+              <div class="product__block">
+                <h2 class="product-block__title">Product title</h2>
+                <p class="product-block__text">Space for a small product description </p>
+                <div><span class="mdi mdi-star black"></span><span class="mdi mdi-star black"></span><span
+                    class="mdi mdi-star black"></span><span class="mdi mdi-star black"><span
+                      class="mdi mdi-star-outline"></span></div>
+                <div class=" row between-xs middle-xs">
+                  <div>
+                    <p class="space__text">Fresheness</p>
+                    <p class="space__text">Farm</p>
+                    <p class="space__text">Delivery</p>
+                    <p class="space__text">Stock</p>
+                  </div>
+                  <div>
+                    <p class="space__text"><span class="category__link line">New</span> (Extra fresh)</p>
+                    <p class="space__text">Grocery Tarm Fields</p>
+                    <p class="space__text">Europe</p>
+                    <p class="category__link line">320 pcs</p>
+                  </div>
+                </div>
+
+              </div>
+              <div>
+                <h3 class="product-price__title">36.99 USD<br> <span class="product-price__title__span">48.56</span>
+                </h3>
+                <h4 class="costumer__text">Free Shipping</h4>
+                <p class="space__text">Delivery in 1 day</p>
+                <a class="product-price__btn mr__b" href="#">Product Detail <span
+                    class="mdi mdi-chevron-right white"></span></a>
+                <p class="wish__btn"> <span class="mdi mdi-heart-outline"></span>Add to wish list</p>
+
+              </div>
+            </div>
+
+
+            <div class="product-body__card row between-xs middle-xs">
+              <img src="img/Rectangle-26.png" width="325px" alt="img">
+              <div class="product__block">
+                <h2 class="product-block__title">Product title</h2>
+                <p class="product-block__text">Space for a small product description </p>
+                <div><span class="mdi mdi-star black"></span><span class="mdi mdi-star black"></span><span
+                    class="mdi mdi-star black"></span><span class="mdi mdi-star black"><span
+                      class="mdi mdi-star-outline"></span></div>
+                <div class=" row between-xs middle-xs">
+                  <div>
+                    <p class="space__text">Fresheness</p>
+                    <p class="space__text">Farm</p>
+                    <p class="space__text">Delivery</p>
+                    <p class="space__text">Stock</p>
+                  </div>
+                  <div>
+                    <p class="space__text"><span class="category__link line">New</span> (Extra fresh)</p>
+                    <p class="space__text">Grocery Tarm Fields</p>
+                    <p class="space__text">Europe</p>
+                    <p class="category__link line">320 pcs</p>
+                  </div>
+                </div>
+
+              </div>
+              <div>
+                <h3 class="product-price__title">36.99 USD<br> <span class="product-price__title__span">48.56</span>
+                </h3>
+                <h4 class="costumer__text">Free Shipping</h4>
+                <p class="space__text">Delivery in 1 day</p>
+                <a class="product-price__btn mr__b" href="#">Product Detail <span
+                    class="mdi mdi-chevron-right white"></span></a>
+                <p class="wish__btn"> <span class="mdi mdi-heart-outline"></span>Add to wish list</p>
+
+              </div>
+            </div>
+
+            <div class="product-body__card row between-xs middle-xs">
+              <img src="img/Rectangle-26.png" width="325px" alt="img">
+              <div class="product__block">
+                <h2 class="product-block__title">Product title</h2>
+                <p class="product-block__text">Space for a small product description </p>
+                <div><span class="mdi mdi-star black"></span><span class="mdi mdi-star black"></span><span
+                    class="mdi mdi-star black"></span><span class="mdi mdi-star black"><span
+                      class="mdi mdi-star-outline"></span></div>
+                <div class=" row between-xs middle-xs">
+                  <div>
+                    <p class="space__text">Fresheness</p>
+                    <p class="space__text">Farm</p>
+                    <p class="space__text">Delivery</p>
+                    <p class="space__text">Stock</p>
+                  </div>
+                  <div>
+                    <p class="space__text"><span class="category__link line">New</span> (Extra fresh)</p>
+                    <p class="space__text">Grocery Tarm Fields</p>
+                    <p class="space__text">Europe</p>
+                    <p class="category__link line">320 pcs</p>
+                  </div>
+                </div>
+
+              </div>
+              <div>
+                <h3 class="product-price__title">36.99 USD<br> <span class="product-price__title__span">48.56</span>
+                </h3>
+                <h4 class="costumer__text">Free Shipping</h4>
+                <p class="space__text">Delivery in 1 day</p>
+                <a class="product-price__btn mr__b" href="#">Product Detail <span
+                    class="mdi mdi-chevron-right white"></span></a>
+                <p class="wish__btn"> <span class="mdi mdi-heart-outline"></span>Add to wish list</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row between-xs middle-xs">
+          <p class="space__text">Page: <span class="page__numbers">1 2 <span class="page__tree">3</span> 4</span></p>
+          <a class="product-price__btn mr__b" href="#">Show more products <span class="mdi mdi-chevron-down"></span></a>
+
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+
+
+
+
+
+
+
+
+
+  <footer>
+    <div class="container">
+      <div class="row between-xs top-xs">
+        <ul class="category__list">
+          <li class="category__item--active">Get in touch</li>
+          <li class="category__item line"><a class="category__link line" href="#">Bakery</a></li>
+          <li class="category__item line"><a class="category__link line" href="#">Fruit and vegetables</a></li>
+          <li class="category__item line"><a class="category__link line" href="#">Meat and fish</a></li>
+          <li class="category__item line"><a class="category__link line" href="#">Drinks</a></li>
+
+        </ul>
+        <ul class="category__list">
+          <li class="category__item--active">Connections</li>
+          <li class="category__item line"><a class="category__link line" href="https://www.facebook.com/"
+              target="blank">Facebook</a></li>
+          <li class="category__item line"><a class="category__link line" href="https://www.twitter.com/"
+              target="blank">Twitter</a></li>
+          <li class="category__item line"><a class="category__link line" href="#">Instagram</a></li>
+          <li class="category__item line"><a class="category__link line" href="https://www.youtube.com/"
+              target="blank">Youtube</a></li>
+          <li class="category__item line"><a class="category__link line" href="https://www.linkedin.com/"
+              target="blank">LinkedIn</a></li>
+        </ul>
+        <ul class="category__list">
+          <li class="category__item--active">Earnings</li>
+          <li class="category__item line"><a class="category__link line" href="#">Become an Affiliate</a></li>
+          <li class="category__item line"><a class="category__link line" href="#">Advertise your product</a></li>
+          <li class="category__item line"><a class="category__link line" href="#">Sell on Market</a></li>
+
+        </ul>
+        <ul class="category__list">
+          <li class="category__item--active">Account</li>
+          <li class="category__item line"><a class="category__link line" href="#">Your account</a></li>
+          <li class="category__item line"><a class="category__link line" href="#">Returns Centre</a></li>
+          <li class="category__item line"><a class="category__link line" href="#">100 % purchase protection</a></li>
+          <li class="category__item line"><a class="category__link line" href="#">Chat with us</a></li>
+          <li class="category__item line"><a class="category__link line" href="#">Help</a></li>
+        </ul>
+      </div>
+      <div class="tags">
+        <h2 class="tags__title">Product tags</h2>
+
+        <ul class="menu__list">
+          <li class="menu__item"><a class="menu__link line" href="#">Beans</a></li>
+          <li class="menu__item"><a class="menu__link line" href="#">Carrots</a></li>
+          <li class="menu__item"><a class="menu__link line" href="#">Apples</a></li>
+          <li class="menu__item"><a class="menu__link line" href="#">Garlic</a></li>
+          <li class="menu__item"><a class="menu__link line" href="#">Mushrooms</a></li>
+          <li class="menu__item"><a class="menu__link line" href="#">Tomatoes</a></li>
+          <li class="menu__item"><a class="menu__link line" href="#">Chilli peppers</a></li>
+          <li class="menu__item"><a class="menu__link line" href="#">Broccoli</a></li>
+          <li class="menu__item"><a class="menu__link line" href="#">Watermelons</a></li>
+          <li class="menu__item"><a class="menu__link line" href="#">Oranges</a></li>
+          <li class="menu__item"><a class="menu__link line" href="#">Bananas</a></li>
+          <li class="menu__item"><a class="menu__link line" href="#">Grapes</a></li>
+        </ul>
+        <ul class="menu__list width">
+          <li class="menu__item"><a class="menu__link line" href="#">Cherries</a></li>
+          <li class="menu__item"><a class="menu__link line" href="#">Meat</a></li>
+          <li class="menu__item"><a class="menu__link line" href="#">Seo tag</a></li>
+          <li class="menu__item"><a class="menu__link line" href="#">Fish</a></li>
+          <li class="menu__item"><a class="menu__link line" href="#">Seo tag</a></li>
+          <li class="menu__item"><a class="menu__link line" href="#">Fresh food</a></li>
+          <li class="menu__item"><a class="menu__link line" href="#">Lemons</a></li>
+        </ul>
+        <p class="footer-bootom-text">Copyright © 2020 petrbilek.com</p>
+
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

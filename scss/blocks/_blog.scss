@@ -1,0 +1,121 @@
+#blog {
+  margin-bottom: 130px;
+}
+
+.our {
+  width: 470px;
+  height: 401px;
+  margin-top: 36px;
+  position: relative;
+
+  &::before {
+    content: '';
+    display: block;
+    background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+  }
+}
+
+.our__title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 50px;
+  left: 25px;
+  width: 380px;
+}
+
+.our__text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+  display: flex;
+  align-items: center;
+
+  &::before {
+    content: '';
+    display: block;
+    background-image: url('/img/Small.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+}
+
+.our-text__time {
+  margin-left: 15px;
+}
+
+.vegatable {
+  width: 270px;
+}
+
+.vegatable__img {
+  margin-bottom: 10px;
+}
+
+.vegatable__span {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #6A983C;
+  background: #F4F8EC;
+  border-radius: 12px;
+  padding: 0 8px;
+}
+
+.vegatable__title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #151515;
+}
+
+.vegatable__text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #151515;
+}
+
+.vegatable-text__time {
+  margin-left: 15px;
+}
+
+.food {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.food__title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #151515;
+  width: 240px;
+}

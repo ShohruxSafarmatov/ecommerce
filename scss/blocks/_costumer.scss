@@ -1,0 +1,136 @@
+#costumer {
+  height: 700px;
+  margin-bottom: 130px;
+}
+
+.costumer__btns {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #151515;
+  text-decoration: none;
+}
+
+.costumer__list {
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  height: 250px;
+
+}
+
+.costumer__item {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #151515;
+  list-style: none;
+  background: #FFFFFF;
+  border: 1px solid #F1F1F1;
+  box-sizing: border-box;
+  border-radius: 12px;
+  padding: 20px 25px;
+  width: 340px;
+  height: 200px;
+}
+
+.costumer__text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #A9A9A9;
+}
+
+.costumer__img {
+  position: absolute;
+  bottom: -25px;
+  left: 150px;
+}
+
+.won {
+  position: absolute;
+  left: -150px;
+}
+
+.two {
+  position: absolute;
+  left: 220px;
+}
+
+.tree {
+  position: absolute;
+  right: 250px;
+}
+
+.four {
+  transform: translateX(980px);
+}
+
+.next__prev {
+  position: relative;
+}
+
+
+.prev {
+  background: #151515;
+  box-shadow: 0px 1px 2px rgb(0 0 0 / 25%);
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  list-style: none;
+  color: #fff;
+  width: 32px;
+  height: 48px;
+  padding-top: 10px;
+  padding-left: 2px;
+  font-size: 25px;
+  position: absolute;
+  top: -175px;
+  left: -16px;
+  z-index: 1;
+}
+
+.next {
+  background: #151515;
+  box-shadow: 0px 1px 2px rgb(0 0 0 / 25%);
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  list-style: none;
+  color: #fff;
+  width: 32px;
+  height: 48px;
+  padding-top: 10px;
+  padding-left: 5px;
+  font-size: 25px;
+  position: absolute;
+  top: -175px;
+  right: -16px;
+  z-index: 1;
+}
+
+.shodow__next {
+  position: absolute;
+  width: 88px;
+  height: 226px;
+  right: -16px;
+  top: -242px;
+  background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  opacity: 0.7;
+  transform: rotate(180deg);
+}
+
+.shodow__prev {
+  position: absolute;
+  width: 88px;
+  height: 225px;
+  left: -16px;
+  top: -240.5px;
+  background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  opacity: 0.7;
+}

@@ -1,0 +1,114 @@
+#product{
+  margin-bottom: 130px;
+}
+.product__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 960px;
+}
+
+.product-item__description {
+  width: 269px;
+  height: 340px;
+  padding: 16px;
+  background: #FFFFFF;
+  border: 1px solid #D1D1D1;
+  box-sizing: border-box;
+  border-radius: 12px;
+  list-style: none;
+}
+
+.product__span {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #6A983C;
+  background: #F4F8EC;
+  border-radius: 12px;
+  padding: 0 8px;
+  position: absolute;
+  left: 25px;
+  top: 25px;
+}
+
+.product__item {
+  width: 269px;
+  height: 340px;
+  padding: 16px;
+  background: #FFFFFF;
+  border: 1px solid #D1D1D1;
+  box-sizing: border-box;
+  border-radius: 12px;
+  list-style: none;
+  position: relative;
+}
+
+.product__title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #151515;
+  margin-bottom: 0;
+
+}
+
+.product__text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #575757;
+  margin-top: 0;
+
+}
+
+.product__price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+.product-price__title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 15px;
+  color: #151515;
+  margin: 0;
+}
+
+.product-price__title__span {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  text-decoration-line: line-through;
+  color: #A9A9A9;
+}
+
+.product-price__btn {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  color: #FFFFFF;
+  background: #6A983C;
+  border: 2px solid #46760A;
+  box-sizing: border-box;
+  border-radius: 12px;
+  text-decoration: none;
+  padding: 6px 12px;
+}
+.headline{
+  padding: 0;
+}
