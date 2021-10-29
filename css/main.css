@@ -677,7 +677,7 @@ nav {
 
 .product-item__description {
   width: 269px;
-  height: 340px;
+  height: 350px;
   padding: 16px;
   background: #FFFFFF;
   border: 1px solid #D1D1D1;
@@ -703,7 +703,7 @@ nav {
 
 .product__item {
   width: 269px;
-  height: 340px;
+  height: 350px;
   padding: 16px;
   background: #FFFFFF;
   border: 1px solid #D1D1D1;
@@ -1237,13 +1237,11 @@ label span:before {
   display: flex;
   flex-shrink: 0;
   content: "";
-  background-color: #fff;
   width: 1.5em;
   height: 1.5em;
   border-radius: 50%;
   margin-right: 5px;
   transition: 0.25s ease;
-  box-shadow: inset 0 0 0 0.125em #000;
 }
 
 .nbm {
@@ -1922,4 +1920,8 @@ label span:before {
   font-size: 12px;
   line-height: 16px;
   color: #151515;
+}
+
+.product-item__description {
+  height: 350px;
 }/*# sourceMappingURL=main.css.map */
